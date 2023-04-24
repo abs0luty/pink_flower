@@ -8,8 +8,6 @@ local venv_prompt='$(virtualenv_prompt_info)'
 
 local time="%B%{$fg[grey]%}%D{%L:%M:%S} " 
 
-ZSH_THEME_RVM_PROMPT_OPTIONS="i v g"
-
 PROMPT="🌸 ${current_dir}%B%F{blue}:: ${vcs_branch}${venv_prompt}${user_symbol}%b "
 RPROMPT="${user_host}:: ${time}${return_code}%b"
 
